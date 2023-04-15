@@ -34,8 +34,8 @@ SELECT * FROM product WHERE Manufacturer = 'Samsung';
 -- 	4.2. "Samsung"
 -- 	4.3.  Товары, в которых есть ЦИФРА "8"  
 
-SELECT * FROM product WHERE ProductName LIKE 'Iphone%';
+SELECT * FROM product WHERE ProductName LIKE '%Iphone%';
 
-SELECT * FROM product WHERE Manufacturer LIKE 'Samsung';
+SELECT * FROM product WHERE Manufacturer LIKE '%Samsung%';
 
 SELECT * FROM product WHERE ProductName LIKE '%8%';
