@@ -4,8 +4,7 @@ DROP DATABASE IF EXISTS lesson3;
 CREATE DATABASE IF NOT EXISTS lesson3;
 
 USE lesson3;
-# 'sql', "sql"
-# `ё на англ.раскладке` - выделяются названия таблиц, столбцов и БД
+
 DROP TABLE IF EXISTS staff;
 CREATE TABLE IF NOT EXISTS `staff`
 (
