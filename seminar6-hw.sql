@@ -45,7 +45,6 @@ BEGIN
 END|
 delimiter ;
 
--- DROP PROCEDURE even_num;
 SET @generated_stmt = CONCAT(CONCAT( "SELECT * FROM ( "),generate_seq_stmt(10), " ) AS U WHERE (U.value%2)=0;");
 PREPARE stmt1 FROM @generated_stmt ;
 SELECT @generated_stmt;
